@@ -1,7 +1,7 @@
 # Primeiro Trabalho #
-Disciplina: Engenharia de Software (INF1629) 
-Professor: Julio Cesar Sampaio do Prado Leite 
-Instituição: Pontifícia Universidade Católica do Rio de Janeiro.
+- *Disciplina: Engenharia de Software (INF1629)* 
+- *Professor: Julio Cesar Sampaio do Prado Leite*
+- *Instituição: Pontifícia Universidade Católica do Rio de Janeiro.*
 
 ### Instalação ###
 Provide code examples and explanations of how to get the project.
