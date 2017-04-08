@@ -3,6 +3,9 @@
 - **Professor**: Julio Cesar Sampaio do Prado Leite
 - **Instituição**: Pontifícia Universidade Católica do Rio de Janeiro
 
+### Descrição ###
+O primeiro trabalho de Engenharia de Software (INF1629) é uma versão digital do jogo Genius, o brinquedo mais popular na década de 1980 no Brasil, escrita em LUA.
+
 ### Instalação ###
 Provide code examples and explanations of how to get the project.
 
