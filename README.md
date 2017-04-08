@@ -8,7 +8,7 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 
 ### Arquivos ###
 - *README.md*
-- *DIARIO.odt*
+- *DIARIO.docx*
 - *main.lua*
 
 ### Instalação ###
