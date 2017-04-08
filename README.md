@@ -8,8 +8,10 @@ Provide code examples and explanations of how to get the project.
 
 ### Referências ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
+- **[LÖVE](https://love2d.org/)**
 
 ### Contribuidores ###
+- Eduardo Maksoud
 - Thaissa Falbo
 
 ### Copyright e Licença ###
