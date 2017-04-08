@@ -1,4 +1,6 @@
 # Primeiro Trabalho de INF1629 #
+- **Aluna**: Daniela Brazão Maksoud
+- **Matrícula**: 1321873
 - **Disciplina**: Princípios de Engenharia de Software (INF1629)
 - **Professor**: Julio Cesar Sampaio do Prado Leite
 - **Instituição**: Pontifícia Universidade Católica do Rio de Janeiro
