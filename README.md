@@ -13,5 +13,5 @@ Provide code examples and explanations of how to get the project.
 - Thaissa Falbo
 
 ### Copyright e Licença ###
-O código em linguagem *LUA* é licenciado sob a **[GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)**.
+O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
 
