@@ -7,9 +7,9 @@
 O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma versão digital escrita em *LUA* do brinquedo *Genius*, o mais popular no Brasil na década de 1980.
 
 ### Arquivos ###
-- README.md
-- DIARIO.odt
-- main.lua
+- *README.md*
+- *DIARIO.odt*
+- *main.lua*
 
 ### Instalação ###
 Provide code examples and explanations of how to get the project.
