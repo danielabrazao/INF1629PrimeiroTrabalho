@@ -1,4 +1,4 @@
-# Primeiro Trabalho #
+# Primeiro Trabalho de INF1629 #
 - **Disciplina**: Engenharia de Software (INF1629)
 - **Professor**: Julio Cesar Sampaio do Prado Leite
 - **Instituição**: Pontifícia Universidade Católica do Rio de Janeiro
