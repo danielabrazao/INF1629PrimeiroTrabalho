@@ -1,10 +1,10 @@
 # Primeiro Trabalho de INF1629 #
-- **Disciplina**: Engenharia de Software (INF1629)
+- **Disciplina**: Princípios de Engenharia de Software (INF1629)
 - **Professor**: Julio Cesar Sampaio do Prado Leite
 - **Instituição**: Pontifícia Universidade Católica do Rio de Janeiro
 
 ### Descrição ###
-O primeiro trabalho de Engenharia de Software (INF1629) é uma versão digital escrita em LUA do jogo Genius, o brinquedo mais popular na década de 1980 no Brasil.
+O primeiro trabalho de Princípios de Engenharia de Software (INF1629) é uma versão digital escrita em LUA do jogo Genius, o brinquedo mais popular na década de 1980 no Brasil.
 
 ### Instalação ###
 Provide code examples and explanations of how to get the project.
