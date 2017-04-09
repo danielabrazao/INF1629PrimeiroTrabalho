@@ -39,7 +39,9 @@ Describe and show how to run the tests with code examples.
 - **[LÖVE](https://love2d.org/)** - Framework utilizado
 - **[LUA](http://lua-users.org/)** - Linguagem utilizada
 
-![LUA Logo](https://sempregatas.com.br/Lua-Logo_64x64.png)
+[![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
+
+![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)
 
 ### Referências ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
