@@ -20,23 +20,31 @@ README.md | Informação geral sobre o trabalho
 DIARIO.docx | Relatório de atividades relacionadas à realização do trabalho
 main.lua | Programa principal
 
-### Execução ###
+### Pré Requisitos ###
+
+É necessário instalar: 
+- **[LÖVE](https://love2d.org/)**
+- **[LUA](http://lua-users.org/)**
+
+### Instalação ###
 
 	- Passo 1
 	- Passo 2
 	- Passo 3
 
-### Referências e Recursos ###
-- **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
-- **[LÖVE](https://love2d.org/)**
-- **[LUA](http://lua-users.org/)**
+### Construído com ###
+- **[LÖVE](https://love2d.org/)** - Framework utilizado
+- **[LUA](http://lua-users.org/)** - Linguagem utilizada
 
 ![LUA Logo](https://sempregatas.com.br/Lua-Logo_64x64.png)
+
+### Referências ###
+- **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
 
 ### Contribuidores ###
 - Eduardo Maksoud
 - Thaíssa Falbo (@tfalbo)
 
-### Copyright e Licença ###
+### Licença ###
 O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
 
