@@ -33,7 +33,7 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 
 ### Contribuidores ###
 - Eduardo Maksoud
-- @tfalbo
+- Thaíssa Falbo (@tfalbo)
 
 ### Copyright e Licença ###
 O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
