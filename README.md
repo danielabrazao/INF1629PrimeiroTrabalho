@@ -45,6 +45,7 @@ Describe and show how to run the tests with code examples.
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
 - **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 - **[LUA - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
+- **[Mac App Store - Install LÖVE on Mac OSX](http://macappstore.org/love/)**
 
 ### Contribuidores ###
 - Eduardo Maksoud
