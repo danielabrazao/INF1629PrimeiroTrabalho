@@ -36,9 +36,9 @@ main.lua | Programa principal
 Describe and show how to run the tests with code examples.
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** - Editor de código utilizado
-- **[LÖVE](https://love2d.org/)** - Framework utilizado
-- **[LUA](http://lua-users.org/)** - Linguagem de programação utilizada
+- **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
+- **[LÖVE](https://love2d.org/)** - Framework utilizado.
+- **[LUA](http://lua-users.org/)** - Linguagem de programação utilizada.
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
