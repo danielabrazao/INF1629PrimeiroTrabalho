@@ -1,3 +1,3 @@
-    function love.draw()
-    love.graphics.print("Hello World!", 400, 300)
-    end
+function love.draw()
+    love.graphics.print("Olá Mundo!", 400, 300)
+end
