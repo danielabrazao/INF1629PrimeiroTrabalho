@@ -28,9 +28,7 @@ main.lua | Programa principal do trabalho.
 
 ### Instalação ###
 
-	- Passo 1
-	- Passo 2
-	- Passo 3
+	- prompt> lua main.lua
 
 ### Testes ###
 Describe and show how to run the tests with code examples.
