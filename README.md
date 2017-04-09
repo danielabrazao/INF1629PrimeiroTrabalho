@@ -29,6 +29,8 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 - **[LÖVE](https://love2d.org/)**
 - **[LUA](http://lua-users.org/)**
 
+![Powered by LUA](https://sempregatas.com.br/Lua-Logo_64x64.png)
+
 ### Contribuidores ###
 - Eduardo Maksoud
 - Thaissa Falbo
