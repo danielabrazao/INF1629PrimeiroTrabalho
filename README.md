@@ -29,11 +29,11 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 - **[LÖVE](https://love2d.org/)**
 - **[LUA](http://lua-users.org/)**
 
-![Powered by LUA](https://sempregatas.com.br/Lua-Logo_64x64.png)
+![LUA Logo](https://sempregatas.com.br/Lua-Logo_64x64.png)
 
 ### Contribuidores ###
 - Eduardo Maksoud
-- Thaissa Falbo
+- @tfalbo
 
 ### Copyright e Licença ###
 O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
