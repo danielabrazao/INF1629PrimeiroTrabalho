@@ -32,6 +32,9 @@ main.lua | Programa principal
 	- Passo 2
 	- Passo 3
 
+### Testes ###
+Describe and show how to run the tests with code examples.
+
 ### Construído com ###
 - **[LÖVE](https://love2d.org/)** - Framework utilizado
 - **[LUA](http://lua-users.org/)** - Linguagem utilizada
