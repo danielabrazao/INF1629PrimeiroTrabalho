@@ -43,6 +43,7 @@ Describe and show how to run the tests with code examples.
 
 ### Referências ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
+- **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 
 ### Contribuidores ###
 - Eduardo Maksoud
