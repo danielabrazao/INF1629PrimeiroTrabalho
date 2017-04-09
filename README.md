@@ -15,7 +15,7 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 
 Nome | Descrição
 ------------ | -------------
-LICENSE | Licença Pública Geral GNU Versão 3.
+LICENSE | Licença do trabalho.
 README.md | Informação geral sobre o trabalho.
 DIARIO.docx | Diário de produção do trabalho.
 main.lua | Programa principal do trabalho.
