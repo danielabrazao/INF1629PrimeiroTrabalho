@@ -28,7 +28,8 @@ main.lua | Programa principal do trabalho.
 
 ### Instalação ###
 
-	> lua main.lua
+	lua
+	> dofile("main.lua")
 
 ### Testes ###
 Describe and show how to run the tests with code examples.
