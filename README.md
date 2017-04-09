@@ -28,8 +28,7 @@ main.lua | Programa principal do trabalho.
 
 ### Instalação ###
 
-	lua
-	> dofile("main.lua")
+	open -a love genius.love
 
 ### Testes ###
 
