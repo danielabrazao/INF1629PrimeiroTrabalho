@@ -13,10 +13,12 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 
 ### Arquivos ###
 
-	- LICENSE
-	- README.md
-	- DIARIO.docx
-	- main.lua
+Nome | Descrição
+------------ | -------------
+LICENSE | Licença Pública Geral GNU Versão 3
+README.md | Informação geral sobre o trabalho
+DIARIO.docx | Relatório de atividades relacionadas à realização do trabalho
+main.lua | Programa principal
 
 ### Execução ###
 
