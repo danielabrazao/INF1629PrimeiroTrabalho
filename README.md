@@ -32,7 +32,7 @@ main.lua | Programa principal do trabalho.
 	> dofile("main.lua")
 
 ### Testes ###
-Describe and show how to run the tests with code examples.
+
 
 ### Construído com ###
 - **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
