@@ -27,6 +27,7 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 ### Referências e Recursos ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
 - **[LÖVE](https://love2d.org/)**
+- **[LUA](http://lua-users.org/)**
 
 ### Contribuidores ###
 - Eduardo Maksoud
