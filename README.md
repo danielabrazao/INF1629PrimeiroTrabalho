@@ -37,6 +37,7 @@ main.lua | Programa principal do trabalho.
 - **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
 - **[LÖVE](https://love2d.org/)** - Framework utilizado.
 - **[LUA](http://lua-users.org/)** - Linguagem de programação utilizada.
+- **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** - Efeitos sonoros utilizados.
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
