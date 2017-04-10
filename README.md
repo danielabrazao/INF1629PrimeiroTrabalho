@@ -46,6 +46,7 @@ main.lua | Programa principal do trabalho.
 - **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 - **[LUA - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
 - **[Mac App Store - Install LÖVE on Mac OSX](http://macappstore.org/love/)**
+- **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
 
 ### Contribuidores ###
 - Eduardo Maksoud
