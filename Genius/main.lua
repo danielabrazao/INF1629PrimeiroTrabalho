@@ -28,21 +28,21 @@ function love.load()
     
     -- Inicializa 2 vetores 'a' e 'b' com 5 posições cada
     
-    a = {} -- Declara vetor da sequência aleatória
+    vetor_aleatorio = {} -- Declara vetor da sequência aleatória
 
     math.randomseed(os.time())
     
     for i = 0, 4 do
-        a[i] = math.random(1,4) -- Inicializa vetor com números pseudoaleatórios de 1 a 4
+        vetor_aleatorio[i] = math.random(1,4) -- Inicializa vetor com números pseudoaleatórios de 1 a 4
     end
 
-    b = {} -- Declara vetor da sequência do usuário
+    vetor_usuario = {} -- Declara vetor da sequência do usuário
 
     for i = 0, 4 do
-        b[i] = 0 -- Inicializa vetor com 0's
+        vetor_usuario[i] = 0 -- Inicializa vetor com 0's
     end
     
-    j = 0 -- Inicializa contador de jogadas
+    numero_jogada = 0 -- Inicializa contador de jogadas
     
     perdeu = 0
     
@@ -57,14 +57,14 @@ function zera()
     math.randomseed(os.time())
     
     for i = 0, 4 do
-        a[i] = math.random(1,4)
+        vetor_aleatorio[i] = math.random(1,4)
     end
 
     for i = 0, 4 do
-        b[i] = 0
+        vetor_usuario[i] = 0
     end
     
-    j = 0 -- Inicializa contador de jogadas
+    numero_jogada = 0 -- Inicializa contador de jogadas
     
     perdeu = 0
     
@@ -78,16 +78,16 @@ function love.draw()
     
     if perdeu == 0 and venceu == 0 then
         
-        love.graphics.print("a:", 20, 15)
+        love.graphics.print("Vetor Aleatório:", 20, 15)
         
         for i = 0, 4 do
-            love.graphics.print(a[i], 20, 20+20+25*i)
+            love.graphics.print(vetor_aleatorio[i], 20, 20+20+25*i)
         end
 
-        love.graphics.print("b:", 60, 15)
+        love.graphics.print("Vetor do Usuário:", 60, 15)
         
         for i = 0, 4 do
-            love.graphics.print(b[i], 60, 20+20+25*i)
+            love.graphics.print(vetor_usuario[i], 60, 20+20+25*i)
         end
 
         love.graphics.draw(botaoazul, 20, 20, 0, 0.8, 0.8, -159.8, -20)
@@ -98,9 +98,9 @@ function love.draw()
 
         love.graphics.draw(botaoamarelo, 274, 274, 0, 0.8, 0.8, -159.8, -20)
 
-        love.graphics.print("j:", 20, 180)
+        love.graphics.print("Número de Jogadas:", 20, 180)
 
-        love.graphics.print(j, 40, 180)
+        love.graphics.print(numero_jogadas, 40, 180)
     
     elseif perdeu == 1 then
         love.graphics.print("Perdedor!", 40, 180)
@@ -134,13 +134,13 @@ end -- love.draw
 -- Compara b[j] com a[j]
 
 function compara()
-    if b[j] ~= a[j] then
+    if vetor_usuario[j] ~= vetor_aleatorio[j] then
         perdeu = 1       
     end
 end -- compara
 
 function checa()
-    if j == 5 then
+    if numero_jogadas == 5 then
                 
         venceu = 1
                 
@@ -159,11 +159,11 @@ function love.update(dt)
     
     function love.keypressed(key)
             
-                if j < 5 then
+                if numero_jogadas < 5 then
                     if key == "1" then
 
                         somclique:play()
-                        b[j] = 1
+                        vetor_usuario[j] = 1
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
                         hoverazul = 1
@@ -173,7 +173,7 @@ function love.update(dt)
                     if key == "2" then
 
                         somclique:play()
-                        b[j] = 2
+                        vetor_usuario[j] = 2
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
                         hoververmelho = 1
@@ -183,7 +183,7 @@ function love.update(dt)
                     if key == "3" then
 
                         somclique:play()
-                        b[j] = 3
+                        vetor_usuario[j] = 3
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
                         hoververde = 1
@@ -193,14 +193,14 @@ function love.update(dt)
                     if key == "4" then
 
                         somclique:play()
-                        b[j] = 4
+                        vetor_usuario[j] = 4
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
                         hoveramarelo = 1
                 
                     end
                     
-                end -- if j < 5
+                end -- if numero_jogadas < 5
                 
                 checa()
         
