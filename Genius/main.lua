@@ -111,6 +111,14 @@ function compara()
     end
 end -- compara
 
+function checa()
+    if j == 5 then
+                
+        venceu = 1
+                
+    end -- if j == 5
+end -- checa
+
 -- Elementos atualizados constantemente
 
 function love.update(dt)
@@ -162,12 +170,8 @@ function love.update(dt)
                     
                 end -- if j < 5
                 
-                if j == 5 then
-                
-                    venceu = 1
-                
-                end -- if j == 5
-                
+                checa()
+        
                 if key == "space" then
                     
                     zera() -- Reinicia o jogo
