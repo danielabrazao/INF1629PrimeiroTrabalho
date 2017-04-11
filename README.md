@@ -34,8 +34,13 @@ METHODS.docx | Diagrama de blocos do programa principal.
 - **[LUA](http://lua-users.org/)**
 
 ### Execução ###
-
-	open -a love genius.love
+- Salve o arquivo **genius.love** no diretório *Aplicativos/love/Contents/MacOS*
+- Abra o terminal
+- Vá para o diretório *Aplicativos/love/Contents/MacOS*
+- Digite:
+```
+open -a love genius.love
+```
 
 ### Construído com ###
 - **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
