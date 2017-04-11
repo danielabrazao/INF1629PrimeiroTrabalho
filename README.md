@@ -18,7 +18,7 @@ Nome | Descrição
 LICENSE | Licença do trabalho.
 README.md | Informação geral sobre o trabalho.
 DIARIO.docx | Diário de produção do trabalho.
-main.lua | Programa principal do trabalho.
+genius.love | Arquivo zipado que contém o programa principal do trabalho.
 
 ### Pré Requisitos ###
 
