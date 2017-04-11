@@ -30,9 +30,6 @@ main.lua | Programa principal do trabalho.
 
 	open -a love genius.love
 
-### Testes ###
-
-
 ### Construído com ###
 - **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
 - **[LÖVE](https://love2d.org/)** - Framework utilizado.
@@ -46,6 +43,8 @@ main.lua | Programa principal do trabalho.
 - **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 - **[LUA - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
 - **[Mac App Store - Install LÖVE on Mac OSX](http://macappstore.org/love/)**
+- **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
+- **[LÖVE Wiki](http://leafo.net/love/wiki/)**
 
 ### Contribuidores ###
 - Eduardo Maksoud
@@ -53,4 +52,3 @@ main.lua | Programa principal do trabalho.
 
 ### Licença ###
 O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
-
