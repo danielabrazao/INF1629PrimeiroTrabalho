@@ -23,9 +23,8 @@ README.md | Informação geral sobre o trabalho.
 DIARIO.docx | Diário de produção do trabalho.
 main.lua | Programa principal do trabalho.
 conf.lua | Configurações do programa principal.
-genius.love | Pasta *Genius* compactada.
+genius.love | Pasta *[Genius](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/tree/master/Genius)* compactada.
 METHODS.docx | Diagrama de blocos do programa principal.
-
 
 ### Pré Requisitos ###
 
