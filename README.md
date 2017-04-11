@@ -21,6 +21,7 @@ Nome | Descrição
 LICENSE | Licença do trabalho.
 README.md | Informação geral sobre o trabalho.
 DIARIO.docx | Diário de produção do trabalho.
+conf.lua | Configurações do programa principal do trabalho.
 main.lua | Programa principal do trabalho.
 
 
