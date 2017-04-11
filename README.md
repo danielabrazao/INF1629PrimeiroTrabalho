@@ -38,6 +38,9 @@ genius.love | Arquivo zipado que contém o programa principal do trabalho.
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
+### Observações ###
+O jogo gera uma sequência pseudoaleatória de **5** números que deve ser reproduzida pelo jogador.
+
 ### Referências ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
 - **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
@@ -53,3 +56,4 @@ genius.love | Arquivo zipado que contém o programa principal do trabalho.
 
 ### Licença ###
 O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
+
