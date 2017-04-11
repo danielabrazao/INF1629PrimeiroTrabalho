@@ -2,8 +2,6 @@
 
 function love.load()
     
-    love.keyboard.setKeyRepeat(false)
-    
     love.graphics.setNewFont(24) -- Tamanho da fonte
     
     love.graphics.setColor(255,255,255) -- Cor da fonte
@@ -44,7 +42,7 @@ function love.load()
     
 end -- love.load
 
---  Configurações e carregamentos iniciais
+--  Reinício do jogo
 
 function zera()
 
@@ -73,11 +71,13 @@ function love.draw()
     if perdeu == 0 and venceu == 0 then
         
         love.graphics.print("a:", 20, 15)
+        
         for i = 0, 4 do
             love.graphics.print(a[i], 20, 20+20+25*i)
         end
 
         love.graphics.print("b:", 60, 15)
+        
         for i = 0, 4 do
             love.graphics.print(b[i], 60, 20+20+25*i)
         end
@@ -109,7 +109,7 @@ function compara()
     if b[j] ~= a[j] then
         perdeu = 1       
     end
-end
+end -- compara
 
 -- Elementos atualizados constantemente
 
@@ -128,7 +128,7 @@ function love.update(dt)
 
                         somclique:play()
                         b[j] = 1
-                        compara() -- Compara b[j] com a[j]
+                        compara()
                         j = j + 1 -- Passa para a próxima jogada
 
                     end
@@ -137,7 +137,7 @@ function love.update(dt)
 
                         somclique:play()
                         b[j] = 2
-                        compara() -- Compara b[j] com a[j]
+                        compara()
                         j = j + 1 -- Passa para a próxima jogada
 
                     end
@@ -146,7 +146,7 @@ function love.update(dt)
 
                         somclique:play()
                         b[j] = 3
-                        compara() -- Compara b[j] com a[j]
+                        compara()
                         j = j + 1 -- Passa para a próxima jogada
 
                     end 
@@ -155,7 +155,7 @@ function love.update(dt)
 
                         somclique:play()
                         b[j] = 4
-                        compara() -- Compara b[j] com a[j]
+                        compara()
                         j = j + 1 -- Passa para a próxima jogada
 
                     end
@@ -166,19 +166,19 @@ function love.update(dt)
                 
                     venceu = 1
                 
-                end
+                end -- if j == 5
                 
                 if key == "space" then
                     
                     zera() -- Reinicia o jogo
                     
-                end
+                end -- if key == "space"
             
                 if key == "escape" then
 
                     love.event.quit() -- Sai do jogo
 
-                end
+                end -- if key == "escape"
     
         end -- love.keypressed
     
