@@ -18,23 +18,23 @@ function love.load()
     
     somclique = love.audio.newSource("somclique.wav")
     
-    -- Inicialização de 2 vetores 'a' e 'b' com 5 posições cada
+    -- Inicializa 2 vetores 'a' e 'b' com 5 posições cada
     
-    a = {} -- Sequência aleatória gerada com números de 1 a 4
+    a = {} -- Declara vetor da sequência aleatória
 
     math.randomseed(os.time())
     
     for i = 0, 4 do
-        a[i] = math.random(1,4)
+        a[i] = math.random(1,4) -- Inicializa vetor com números pseudoaleatórios de 1 a 4
     end
 
-    b = {} -- Sequência digitada pelo usuário
+    b = {} -- Declara vetor da sequência do usuário
 
     for i = 0, 4 do
-        b[i] = 0
+        b[i] = 0 -- Inicializa vetor com 0's
     end
     
-    j = 0 -- Inicialização do contador de jogadas
+    j = 0 -- Inicializa contador de jogadas
     
     perdeu = 0
     
@@ -56,7 +56,7 @@ function zera()
         b[i] = 0
     end
     
-    j = 0 -- Inicialização do contador de jogadas
+    j = 0 -- Inicializa contador de jogadas
     
     perdeu = 0
     
