@@ -23,7 +23,7 @@ README.md | Informação geral sobre o trabalho.
 DIARIO.docx | Diário de produção do trabalho.
 main.lua | Programa principal do trabalho.
 conf.lua | Configurações do programa principal.
-genius.love | Pasta Genius compactada com extensão **.love**.
+genius.love | Pasta *Genius* compactada com extensão **.love**.
 METHODS.docx | Diagrama de blocos do programa principal.
 
 
