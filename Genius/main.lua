@@ -42,7 +42,7 @@ function love.load()
         vetor_usuario[i] = 0 -- Inicializa vetor com 0's
     end
     
-    numero_jogada = 0 -- Inicializa contador de jogadas
+    numero_jogadas = 0 -- Inicializa contador de jogadas
     
     perdeu = 0
     
@@ -64,7 +64,7 @@ function zera()
         vetor_usuario[i] = 0
     end
     
-    numero_jogada = 0 -- Inicializa contador de jogadas
+    numero_jogadas = 0 -- Inicializa contador de jogadas
     
     perdeu = 0
     
@@ -78,29 +78,29 @@ function love.draw()
     
     if perdeu == 0 and venceu == 0 then
         
-        love.graphics.print("Vetor Aleatório:", 20, 15)
+        love.graphics.print("Aleatório:", 20, 15)
         
         for i = 0, 4 do
             love.graphics.print(vetor_aleatorio[i], 20, 20+20+25*i)
         end
 
-        love.graphics.print("Vetor do Usuário:", 60, 15)
+        love.graphics.print("Usuário:", 20, 300)
         
         for i = 0, 4 do
-            love.graphics.print(vetor_usuario[i], 60, 20+20+25*i)
+            love.graphics.print(vetor_usuario[i], 20, 300+20+20+25*i)
         end
 
-        love.graphics.draw(botaoazul, 20, 20, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaoazul, 70, 20, 0, 0.8, 0.8, -159.8, -20)
 
-        love.graphics.draw(botaoverde, 20, 274, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaoverde, 70, 274, 0, 0.8, 0.8, -159.8, -20)
 
-        love.graphics.draw(botaovermelho, 274, 20, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaovermelho, 324, 20, 0, 0.8, 0.8, -159.8, -20)
 
-        love.graphics.draw(botaoamarelo, 274, 274, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaoamarelo, 324, 274, 0, 0.8, 0.8, -159.8, -20)
 
-        love.graphics.print("Número de Jogadas:", 20, 180)
+        love.graphics.print("Número de Jogadas:", 20, 580)
 
-        love.graphics.print(numero_jogadas, 40, 180)
+        love.graphics.print(numero_jogadas, 260, 580)
     
     elseif perdeu == 1 then
         love.graphics.print("Perdedor!", 40, 180)
@@ -110,22 +110,22 @@ function love.draw()
     end
     
     if hoverazul == 1 then
-        love.graphics.draw(botaoazul2, 20, 20, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaoazul2, 70, 20, 0, 0.8, 0.8, -159.8, -20)
         hoverazul = 0
     end
     
     if hoververmelho == 1 then
-        love.graphics.draw(botaovermelho2, 274, 20, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaovermelho2, 324, 20, 0, 0.8, 0.8, -159.8, -20)
         hoververmelho = 0
     end
     
     if hoververde == 1 then
-        love.graphics.draw(botaoverde2, 20, 274, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaoverde2, 70, 274, 0, 0.8, 0.8, -159.8, -20)
         hoververde = 0
     end
     
     if hoveramarelo == 1 then
-        love.graphics.draw(botaoamarelo2, 274, 274, 0, 0.8, 0.8, -159.8, -20)
+        love.graphics.draw(botaoamarelo2, 324, 274, 0, 0.8, 0.8, -159.8, -20)
         hoveramarelo = 0
     end
     
@@ -134,7 +134,7 @@ end -- love.draw
 -- Compara b[j] com a[j]
 
 function compara()
-    if vetor_usuario[j] ~= vetor_aleatorio[j] then
+    if vetor_usuario[numero_jogadas] ~= vetor_aleatorio[numero_jogadas] then
         perdeu = 1       
     end
 end -- compara
@@ -163,9 +163,9 @@ function love.update(dt)
                     if key == "1" then
 
                         somclique:play()
-                        vetor_usuario[j] = 1
+                        vetor_usuario[numero_jogadas] = 1
                         compara()
-                        j = j + 1 -- Passa para a próxima jogada
+                        numero_jogadas = numero_jogadas + 1 -- Passa para a próxima jogada
                         hoverazul = 1
                 
                     end
@@ -173,9 +173,9 @@ function love.update(dt)
                     if key == "2" then
 
                         somclique:play()
-                        vetor_usuario[j] = 2
+                        vetor_usuario[numero_jogadas] = 2
                         compara()
-                        j = j + 1 -- Passa para a próxima jogada
+                        numero_jogadas = numero_jogadas + 1 -- Passa para a próxima jogada
                         hoververmelho = 1
                 
                     end
@@ -183,9 +183,9 @@ function love.update(dt)
                     if key == "3" then
 
                         somclique:play()
-                        vetor_usuario[j] = 3
+                        vetor_usuario[numero_jogadas] = 3
                         compara()
-                        j = j + 1 -- Passa para a próxima jogada
+                        numero_jogadas = numero_jogadas + 1 -- Passa para a próxima jogada
                         hoververde = 1
                 
                     end 
@@ -193,9 +193,9 @@ function love.update(dt)
                     if key == "4" then
 
                         somclique:play()
-                        vetor_usuario[j] = 4
+                        vetor_usuario[numero_jogadas] = 4
                         compara()
-                        j = j + 1 -- Passa para a próxima jogada
+                        numero_jogadas = numero_jogadas + 1 -- Passa para a próxima jogada
                         hoveramarelo = 1
                 
                     end
