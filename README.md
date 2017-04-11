@@ -9,7 +9,7 @@
 O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma versão programada na linguagem *LUA* do brinquedo *Genius*, o mais popular no Brasil na década de 1980.
 
 - **Versão**: 1.0
-- **Tamanho**: 189 linhas
+- **Tamanho**: 221 linhas
 
 ### Objetivo ###
 O jogador deve reproduzir corretamente a sequência pseudoaleatória de **5** números gerada automaticamente pelo jogo.
