@@ -16,6 +16,14 @@ function love.load()
     
     botaoamarelo = love.graphics.newImage("botaoamarelo.png")
     
+    botaovermelho2 = love.graphics.newImage("botaovermelho2.png")
+    
+    botaoazul2 = love.graphics.newImage("botaoazul2.png")
+    
+    botaoverde2 = love.graphics.newImage("botaoverde2.png")
+    
+    botaoamarelo2 = love.graphics.newImage("botaoamarelo2.png")
+    
     somclique = love.audio.newSource("somclique.wav")
     
     -- Inicializa 2 vetores 'a' e 'b' com 5 posições cada
@@ -101,6 +109,26 @@ function love.draw()
         love.graphics.print("Vencedor!", 40, 180)
     end
     
+    if hoverazul == 1 then
+        love.graphics.draw(botaoazul2, 20, 20, 0, 0.8, 0.8, -159.8, -20)
+        hoverazul = 0
+    end
+    
+    if hoververmelho == 1 then
+        love.graphics.draw(botaovermelho2, 274, 20, 0, 0.8, 0.8, -159.8, -20)
+        hoververmelho = 0
+    end
+    
+    if hoververde == 1 then
+        love.graphics.draw(botaoverde2, 20, 274, 0, 0.8, 0.8, -159.8, -20)
+        hoververde = 0
+    end
+    
+    if hoveramarelo == 1 then
+        love.graphics.draw(botaoamarelo2, 274, 274, 0, 0.8, 0.8, -159.8, -20)
+        hoveramarelo = 0
+    end
+    
 end -- love.draw
 
 -- Compara b[j] com a[j]
@@ -138,7 +166,8 @@ function love.update(dt)
                         b[j] = 1
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
-
+                        hoverazul = 1
+                
                     end
 
                     if key == "2" then
@@ -147,7 +176,8 @@ function love.update(dt)
                         b[j] = 2
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
-
+                        hoververmelho = 1
+                
                     end
 
                     if key == "3" then
@@ -156,7 +186,8 @@ function love.update(dt)
                         b[j] = 3
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
-
+                        hoververde = 1
+                
                     end 
 
                     if key == "4" then
@@ -165,7 +196,8 @@ function love.update(dt)
                         b[j] = 4
                         compara()
                         j = j + 1 -- Passa para a próxima jogada
-
+                        hoveramarelo = 1
+                
                     end
                     
                 end -- if j < 5
