@@ -2,11 +2,13 @@
 
 function love.load()
     
+    love.keyboard.setKeyRepeat(false)
+    
     love.graphics.setNewFont(24) -- Tamanho da fonte
     
-    love.graphics.setColor(58,58,60) -- Cor da fonte
+    love.graphics.setColor(255,255,255) -- Cor da fonte
     
-    love.graphics.setColor(255,255,255,255) -- Cor do fundo
+    love.graphics.setColor(255,255,255) -- Cor do fundo
     
     botaovermelho = love.graphics.newImage("botaovermelho.png")
     
@@ -16,54 +18,168 @@ function love.load()
     
     botaoamarelo = love.graphics.newImage("botaoamarelo.png")
     
-    somclique = love.audio.newSource("somclique.wav", "static")
+    somclique = love.audio.newSource("somclique.wav")
     
-end
+    -- Inicialização de 2 vetores 'a' e 'b' com 5 posições cada
+    
+    a = {} -- Sequência aleatória gerada com números de 1 a 4
+
+    math.randomseed(os.time())
+    
+    for i = 0, 4 do
+        a[i] = math.random(1,4)
+    end
+
+    b = {} -- Sequência digitada pelo usuário
+
+    for i = 0, 4 do
+        b[i] = 0
+    end
+    
+    j = 0 -- Inicialização do contador de jogadas
+    
+    perdeu = 0
+    
+    venceu = 0
+    
+end -- love.load
+
+--  Configurações e carregamentos iniciais
+
+function zera()
+
+    math.randomseed(os.time())
+    
+    for i = 0, 4 do
+        a[i] = math.random(1,4)
+    end
+
+    for i = 0, 4 do
+        b[i] = 0
+    end
+    
+    j = 0 -- Inicialização do contador de jogadas
+    
+    perdeu = 0
+    
+    venceu = 0
+    
+end -- zera
 
 -- Elementos exibidos
 
 function love.draw()
     
-    love.graphics.draw(botaoazul, 20, 20, 0, 0.8, 0.8, -159.8, -20)
+    if perdeu == 0 and venceu == 0 then
+        
+        love.graphics.print("a:", 20, 15)
+        for i = 0, 4 do
+            love.graphics.print(a[i], 20, 20+20+25*i)
+        end
+
+        love.graphics.print("b:", 60, 15)
+        for i = 0, 4 do
+            love.graphics.print(b[i], 60, 20+20+25*i)
+        end
+
+        love.graphics.draw(botaoazul, 20, 20, 0, 0.8, 0.8, -159.8, -20)
+
+        love.graphics.draw(botaoverde, 20, 274, 0, 0.8, 0.8, -159.8, -20)
+
+        love.graphics.draw(botaovermelho, 274, 20, 0, 0.8, 0.8, -159.8, -20)
+
+        love.graphics.draw(botaoamarelo, 274, 274, 0, 0.8, 0.8, -159.8, -20)
+
+        love.graphics.print("j:", 20, 180)
+
+        love.graphics.print(j, 40, 180)
     
-    love.graphics.draw(botaoverde, 20, 274, 0, 0.8, 0.8, -159.8, -20)
+    elseif perdeu == 1 then
+        love.graphics.print("Perdedor!", 40, 180)
+        
+    elseif venceu == 1 then
+        love.graphics.print("Vencedor!", 40, 180)
+    end
     
-    love.graphics.draw(botaovermelho, 274, 20, 0, 0.8, 0.8, -159.8, -20)
-    
-    love.graphics.draw(botaoamarelo, 274, 274, 0, 0.8, 0.8, -159.8, -20)
-    
+end -- love.draw
+
+-- Compara b[j] com a[j]
+
+function compara()
+    if b[j] ~= a[j] then
+        perdeu = 1       
+    end
 end
 
--- Seleção dos quadrados:
---  1 -> Azul
---  2 -> Vermelho
---  3 -> Verde
---  4 -> Amarelo
+-- Elementos atualizados constantemente
 
-function love.keypressed(key)
+function love.update(dt)
     
-    if key == "1" then
-        
-        love.event.quit()
-        
-    end
+    -- Seleção dos quadrados:
+    --  1 -> Azul
+    --  2 -> Vermelho
+    --  3 -> Verde
+    --  4 -> Amarelo
     
-    if key == "2" then
-        
-        love.event.quit()
-        
-    end
+    function love.keypressed(key)
+            
+                if j < 5 then
+                    if key == "1" then
+
+                        somclique:play()
+                        b[j] = 1
+                        compara() -- Compara b[j] com a[j]
+                        j = j + 1 -- Passa para a próxima jogada
+
+                    end
+
+                    if key == "2" then
+
+                        somclique:play()
+                        b[j] = 2
+                        compara() -- Compara b[j] com a[j]
+                        j = j + 1 -- Passa para a próxima jogada
+
+                    end
+
+                    if key == "3" then
+
+                        somclique:play()
+                        b[j] = 3
+                        compara() -- Compara b[j] com a[j]
+                        j = j + 1 -- Passa para a próxima jogada
+
+                    end 
+
+                    if key == "4" then
+
+                        somclique:play()
+                        b[j] = 4
+                        compara() -- Compara b[j] com a[j]
+                        j = j + 1 -- Passa para a próxima jogada
+
+                    end
+                    
+                end -- if j < 5
+                
+                if j == 5 then
+                
+                    venceu = 1
+                
+                end
+                
+                if key == "space" then
+                    
+                    zera() -- Reinicia o jogo
+                    
+                end
+            
+                if key == "escape" then
+
+                    love.event.quit() -- Sai do jogo
+
+                end
     
-    if key == "3" then
-        
-        love.event.quit()
-        
-    end 
+        end -- love.keypressed
     
-    if key == "4" then
-        
-        love.event.quit()
-        
-    end
-    
-end
+end -- love.update
