@@ -11,6 +11,9 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 - **Versão**: 1.0
 - **Tamanho**: 0 linhas
 
+### Objetivo ###
+O jogador deve reproduzir a sequência pseudoaleatória de **5** números gerada automaticamente pelo jogo.
+
 ### Arquivos ###
 
 Nome | Descrição
@@ -37,9 +40,6 @@ genius.love | Arquivo zipado que contém o programa principal do trabalho.
 - **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** - Efeitos sonoros utilizados.
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
-
-### Observações ###
-O jogo gera uma sequência pseudoaleatória de **5** números que deve ser reproduzida pelo jogador.
 
 ### Referências ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
