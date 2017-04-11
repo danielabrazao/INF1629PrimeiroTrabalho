@@ -12,7 +12,7 @@ O primeiro trabalho de *Princípios de Engenharia de Software (INF1629)* é uma 
 - **Tamanho**: 0 linhas
 
 ### Objetivo ###
-O jogador deve reproduzir a sequência pseudoaleatória de **5** números gerada automaticamente pelo jogo.
+O jogador deve reproduzir corretamente a sequência pseudoaleatória de **5** números gerada automaticamente pelo jogo.
 
 ### Arquivos ###
 
