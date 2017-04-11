@@ -46,6 +46,7 @@ main.lua | Programa principal do trabalho.
 - **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
 - **[LÖVE Wiki](http://leafo.net/love/wiki/)**
 
+
 ### Contribuidores ###
 - Eduardo Maksoud
 - Thaíssa Falbo (@tfalbo)
