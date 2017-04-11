@@ -26,7 +26,7 @@ main.lua | Programa principal do trabalho.
 - **[LÖVE](https://love2d.org/)**
 - **[LUA](http://lua-users.org/)**
 
-### Instalação ###
+### Execução ###
 
 	open -a love genius.love
 
