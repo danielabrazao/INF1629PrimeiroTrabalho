@@ -1,5 +1,5 @@
 # Primeiro Trabalho de Princípios de Engenharia de Software #
-- **Aluna**: Daniela Brazão Maksoud
+- **Aluna**: Daniela Brazão Maksoud (**[@danielabrazao](https://github.com/danielabrazao)**)
 - **Matrícula**: 1321873
 - **Disciplina**: INF1629
 - **Professor**: Julio Cesar Sampaio do Prado Leite
@@ -60,7 +60,7 @@ open -a love genius.love
 
 ### Contribuidores ###
 - Eduardo Maksoud
-- Thaíssa Falbo (@tfalbo)
+- Thaíssa Falbo (**[@tfalbo](https://github.com/tfalbo)**)
 
 ### Licença ###
 O código em linguagem *Lua* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
