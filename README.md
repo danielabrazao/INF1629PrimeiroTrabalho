@@ -42,19 +42,19 @@ open -a love genius.love
 ```
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
-- **[LÖVE](https://love2d.org/)** - Framework utilizado.
-- **[Lua](http://lua-users.org/)** - Linguagem de programação utilizada.
-- **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** - Efeitos sonoros utilizados.
+- **[Brackets](http://brackets.io/)** (Editor de textos utilizado)
+- **[LÖVE](https://love2d.org/)** (Framework utilizado)
+- **[Lua](http://lua-users.org/)** (Linguagem de programação utilizada)
+- **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** (Efeitos sonoros utilizados)
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
 ### Referências ###
-- **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
-- **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
-- **[Lua - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
-- **[Mac App Store - Install LÖVE on Mac OSX](http://macappstore.org/love/)**
-- **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
+- **[Princípios de Engenharia de Software (Notas de Aula)](https://pes2006.wordpress.com/)**
+- **[Rudá Moura (Running Lua on Mac OS X)](http://rudamoura.com/luaonmacosx.html)**
+- **[Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
+- **[Mac App Store (Install LÖVE on Mac OSX)](http://macappstore.org/love/)**
+- **[lua-users (Math Library Tutorial)](http://lua-users.org/wiki/MathLibraryTutorial)**
 - **[LÖVE Wiki](http://leafo.net/love/wiki/)**
 
 
