@@ -42,10 +42,10 @@ open -a love genius.love
 ```
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** (Editor de textos utilizado)
-- **[LÖVE](https://love2d.org/)** (Framework utilizado)
-- **[Lua](http://lua-users.org/)** (Linguagem de programação utilizada)
-- **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** (Efeitos sonoros utilizados)
+- **[Brackets](http://brackets.io/)** (editor de textos utilizado)
+- **[LÖVE](https://love2d.org/)** (framework utilizado)
+- **[Lua](http://lua-users.org/)** (linguagem de programação utilizada)
+- **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** (efeitos sonoros utilizados)
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
