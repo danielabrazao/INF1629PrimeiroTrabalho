@@ -1,5 +1,5 @@
 # Primeiro Trabalho de Princípios de Engenharia de Software #
-- **Aluna**: Daniela Brazão Maksoud (**[@danielabrazao](https://github.com/danielabrazao)**)
+- **Aluna**: Daniela Brazão Maksoud (**[@danielamaksoud](https://github.com/danielamaksoud)**)
 - **Matrícula**: 1321873
 - **Disciplina**: INF1629
 - **Professor**: Julio Cesar Sampaio do Prado Leite
@@ -23,7 +23,7 @@ README.md | Informação geral sobre o trabalho.
 DIARIO.docx | Diário de produção do trabalho.
 main.lua | Programa principal do trabalho.
 conf.lua | Configurações do programa principal.
-genius.love | Pasta *[Genius](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/tree/master/Genius)* compactada.
+genius.love | Pasta *[Genius](https://github.com/danielamaksoud/INF1629PrimeiroTrabalho/tree/master/Genius)* compactada.
 METHODS.docx | Diagrama de blocos do programa principal.
 
 ### Pré Requisitos ###
@@ -47,7 +47,7 @@ open -a love genius.love
 - **[Lua](http://lua-users.org/)** (linguagem de programação utilizada)
 - **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** (efeitos sonoros utilizados)
 
-[![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
+[![Powered by LUA](https://github.com/danielamaksoud/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
 ### Referências ###
 - **[Princípios de Engenharia de Software (Notas de Aula)](https://pes2006.wordpress.com/)**
