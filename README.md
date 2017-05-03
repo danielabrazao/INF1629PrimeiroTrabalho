@@ -1,3 +1,5 @@
+![Daniela Maksoud Logo](http://sempregatas.com.br/imagens/Logo.png)
+
 # Primeiro Trabalho de Princípios de Engenharia de Software #
 - **Aluna**: Daniela Brazão Maksoud (**[@danielamaksoud](https://github.com/danielamaksoud)**)
 - **Matrícula**: 1321873
