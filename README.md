@@ -65,5 +65,5 @@ open -a love genius.love
 - Thaíssa Falbo (**[@tfalbo](https://github.com/tfalbo)**)
 
 ### Licença ###
-O código em linguagem *Lua* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
+O trabalho é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
 
