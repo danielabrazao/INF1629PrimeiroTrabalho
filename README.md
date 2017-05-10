@@ -44,7 +44,7 @@ open -a love genius.love
 ```
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** (editor de textos utilizado)
+- **[Brackets](http://brackets.io/)** (editor de código utilizado)
 - **[LÖVE](https://love2d.org/)** (framework utilizado)
 - **[Lua](http://lua-users.org/)** (linguagem de programação utilizada)
 - **[Game Button Sounds Pack - Free Sounds](https://www.youtube.com/watch?v=HCqRNkiE0lI)** (efeitos sonoros utilizados)
